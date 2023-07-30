@@ -11,7 +11,7 @@ function Main(){
     return(
         <>
         <div className="mainstyle">
-            <h2>Little Lemon<h4>Pune</h4><h5>We are a family owned <br/>Indian restaurant, focused on <br/>traditional recipes served <br/>with a modern twist</h5></h2>
+            <h2 className="resname">Little Lemon<h4>Pune</h4><h5>We are a family owned <br/>Indian restaurant, focused on <br/>traditional recipes served <br/>with a modern twist</h5></h2>
             
             
             
@@ -20,8 +20,11 @@ function Main(){
             </div>
 
             
+
         </div>
+        
         <div className="cardstyle">
+        
             <Card className="mycard">
                     <Card.Body>
                         <Card.Img src={chicken} width={'350px'} height={'350px'}></Card.Img>

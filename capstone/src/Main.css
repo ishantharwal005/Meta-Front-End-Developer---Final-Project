@@ -6,7 +6,7 @@
     align-items: top;
 }
 
-h2{
+.resname{
     margin-left: 10vw;
     margin-top: 20vh;
     align-items: center;
@@ -49,5 +49,6 @@ h5{
     align-items: center;
     background-color: rgb(195, 233, 195);
     height:90vh;
+    
     
 }

@@ -63,7 +63,7 @@ const BookingForm = ({
         </select>
       </div>
       <div className="reservation-container">
-        <label htmlFor="people" className="containter-item-title">
+        <label htmlFor="people" className="containter-item-title" style={{marginRight: '10px'}}>
           Number of people
         </label>
         <input
