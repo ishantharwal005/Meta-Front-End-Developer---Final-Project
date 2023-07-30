@@ -1,0 +1,53 @@
+.mainstyle{
+    background-color: rgb(188, 226, 188);
+    width: auto;
+    height: 65vh;
+    display: flex;
+    align-items: top;
+}
+
+h2{
+    margin-left: 10vw;
+    margin-top: 20vh;
+    align-items: center;
+    font-size:60px;
+    color: lemonchiffon;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 0 0 10px rgb(69, 66, 38);
+}
+
+h4{
+    font-size: 30px;
+    color: black;
+    text-shadow: none;
+}
+
+h5{
+    font-size: 20px;
+    color: black;
+    text-shadow: none;
+}
+.about{
+    margin-left: 20vw;
+    margin-top: 10vh;
+    align-items: center;
+}
+
+.mycard{
+    margin-top: 1vh;
+    margin-left: 7vw;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: lemonchiffon;
+    
+}
+
+.cardstyle{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(195, 233, 195);
+    height:90vh;
+    
+}

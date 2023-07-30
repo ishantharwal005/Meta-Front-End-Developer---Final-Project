@@ -1,16 +1,21 @@
-import Nav from './Nav';
-import littlelemonlogo from './littlelemonlogo.jpg';
-import {HStack} from "@chakra-ui/react";
+import littlelemonlogo from "./littlelemonlogo.jpg"
 import "./Header.css"
+import { Link } from "react-router-dom";
 function Header(){
     return(
-        <>
-        <HStack className="header-container" spacing = "200px">
-            <img src = {littlelemonlogo} alt = "logo" height = "200px" width = "250px"/>
-            <Nav/>
-        </HStack>
-        </>
+        <div className="headerstyle">
+            <img src={littlelemonlogo} height = "200px" width = "250px"></img>
+            <nav>
+                <ul>
+                    <li><Link to ="/" style={{textDecoration: 'none'}}>Home</Link></li>
+                    <li>About</li>
+                    <li><Link to= "/reservation" style={{textDecoration: 'none'}}>Reservation</Link></li>
+                    <li>Order Online</li>
+
+                </ul>
+            </nav>
+        </div>
     )
 }
 
-export default Header;  
+export default Header;

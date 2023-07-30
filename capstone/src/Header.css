@@ -1,3 +1,39 @@
-.header-container{
+.headerstyle{
+    background-color: lemonchiffon;
+    width: auto;
+    height: 25vh;
+    display: flex;
+    align-items: center;
     
+}
+
+/* .listheader{
+    display: flex;
+    justify-content:space-between;
+    justify-items: ;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding: 300px;
+    
+}
+
+li{
+    float: left;
+    padding: 40px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
 }

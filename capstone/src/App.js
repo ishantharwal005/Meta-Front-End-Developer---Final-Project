@@ -1,16 +1,21 @@
 
 import './App.css';
-import Header from './Header';
-import Footer from './Footer';
-import Nav from './Nav';
-import Main from './Main';
-
+import React, { useRef } from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from './Home';
+import {Link} from "react-router-dom";
+import Reservation from './Reservation';
 function App() {
 
   
   return (
     <>
-      <Header/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element = {<Home/>}/>
+          <Route path = '/reservation' element = {<Reservation />}/>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
